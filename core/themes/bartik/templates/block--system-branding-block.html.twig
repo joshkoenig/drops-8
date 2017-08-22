@@ -17,7 +17,7 @@
 {% block content %}
   {% if site_logo %}
     <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-branding__logo">
-      <img src="/core/themes/bartik/accenture.png" alt="{{ 'Home'|t }}" />
+      <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
     </a>
   {% endif %}
   {% if site_name or site_slogan %}
